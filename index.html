@@ -1,10 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Test Website</title>
+    <title>alexboden.ca</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="script.js"></script>
+   <link rel="icon" href="photos/person-swimming-solid.svg" type="image/svg+xml">
 </head>
+
 <body>
-    <h1>Hello, World!</h1>
+
+	<div class="flex-container">
+		<div class="inline-p inline-h2 center-text">
+			<h2 class="sound" onclick="playAudio('audio/hello-there-trimmed-louder', 'audio/hello-there-trimmed-louder.mp3', 1)"">Hello there</d> <h2>and welcome to alexboden.ca! </h2>	
+			<br> 
+			<p>You can tap on the pink items for some auditory stimulation.</p>
+			
+			<div class="image-container">
+				<img src="photos/dewi.png" class="responsive-image" alt="Milo">
+				<img src="photos/milo.png" class="responsive-image" alt="Dewi">
+				<img src="photos/earl-2.png" class="responsive-image" alt="Earl">
+				<img src="photos/alex.png" class="responsive-image" alt="Alex">
+			</div>
+			<br>
+			<p class="pets-caption">My three pets: Dewi, Milo and Earl and here's me, Alex Boden!</p>
+		</div>
+	</div>
+	<br>
+	<br>
+		<div id="faq" class="content-container">
+			<h2 style="text-align: center;">About Me</h2>
+			<ul id="aboutList">
+				<li>I study Computer Science at University of Waterloo (considering a minor in Pure Math or Combinatorics)</li>
+			</ul>
+			<button class="another-one-button" onclick="addListItem() ; playAudio('audio/another-one', 'audio/another-one.mp3', 0.7)" style="display: block; margin: auto;">Click!</button>
+		</div>
+
+
+		<br>
+		<div id="contact" class="content-container center-text">
+			<h2>Contact</h2>
+			<p>Please reach my at any of the links below, always looking for opportunities!</p>
+				<a href="mailto:hello@alexboden.ca" target="_blank" style="text-decoration: none; color: inherit;">
+					<p>hello@alexboden.ca
+					<i class="fa fa-envelope" style="font-size:20px"></i>		
+					</p>
+				</a>
+
+				<a href="https://linkedin.com/in/alex-boden" target="_blank" style="text-decoration: none; color: inherit;">
+					<p>linkedin.com/in/alex-boden
+					<i class="fa fa-linkedin" style="font-size:20px"></i>		
+					</p>
+				</a>
+
+				<a href="https://github.com/alexboden" target="_blank" style="text-decoration: none; color: inherit;">
+					<p>github.com/alexboden
+					<i class="fa fa-github" style="font-size:20px"></i>		
+					</p>
+				</a>
+
+
+		</div>
+		<br>
+		<div id="faq" class="content-container">
+			<h2>FAQ</h2>
+			<div class="inline-p">
+				<p>Q: </p>
+				<p class="sound" onclick="playAudio('audio/have-u-every-played-rugby', 'audio/have-u-every-played-rugby.mp3', 1)"> Have you ever played rugby?</p>
+				<p></p>
+			</div>
+
+			<p>A: Nope, I usually stick to swimming, frisbee, hiking and basketball.</p>
+			<!-- <p>Q: Do you have an OnlyFans?</p>
+			<div class="inline-p">
+				<p>A: </p>
+				<p class="fake-link" onclick="playAudio('audio/windows-10-error-sound', 'windows-10-error-sound.mp3', 1)">Find out</p> <p></p>
+			</div> -->
+			<p>Q: What's your favourite sports team?</p>
+			<p>A: Boston Celtics</p>
+		</div>
+
+
+		<br>
+
 </body>
 </html>
 

@@ -2,87 +2,63 @@
 <html lang="en">
 <head>
     <title>alexboden.ca</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="script.js"></script>
-   <link rel="icon" href="photos/person-swimming-solid.svg" type="image/svg+xml">
+   <!-- <link rel="icon" href="photos/person-swimming-solid.svg" type="image/svg+xml"> -->
 </head>
 
-<body>
+<body class="bg-light">
 
-	<div class="flex-container">
-		<div class="inline-p inline-h2 center-text">
-			<h2 class="sound" onclick="playAudio('audio/hello-there-trimmed-louder', 'audio/hello-there-trimmed-louder.mp3', 1)"">Hello there</d> <h2>and welcome to alexboden.ca! </h2>	
-			<br> 
-			<p>You can tap on the pink items for some auditory stimulation.</p>
-			
-			<div class="image-container">
-				<img src="photos/dewi.png" class="responsive-image" alt="Milo">
-				<img src="photos/milo.png" class="responsive-image" alt="Dewi">
-				<img src="photos/earl-2.png" class="responsive-image" alt="Earl">
-				<img src="photos/alex.png" class="responsive-image" alt="Alex">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center mt-5">
+				<h2 class="d-inline font-weight-bold">Hello there and welcome to</h2>
+				<h2 class="d-inline pink font-weight-bold">alexboden.ca!</h2>
+				<br> 
+				<div class="image-container">
+					<img src="photos/dewi.png" class="responsive-image" alt="Milo">
+					<img src="photos/milo.png" class="responsive-image" alt="Dewi">
+					<img src="photos/earl-2.png" class="responsive-image" alt="Earl">
+					<img src="photos/alex.png" class="responsive-image" alt="Alex">
+				</div>
+				<br>
+				<p class="pets-caption">My three pets: Dewi, Milo, and Earl, and here's me, Alex Boden!</p>
 			</div>
-			<br>
-			<p class="pets-caption">My three pets: Dewi, Milo and Earl and here's me, Alex Boden!</p>
 		</div>
-	</div>
-	<br>
-	<br>
-		<div id="faq" class="content-container">
-			<h2 style="text-align: center;">About Me</h2>
-			<ul id="aboutList">
-				<li>I study Computer Science at University of Waterloo (considering a minor in Pure Math or Combinatorics)</li>
+		<br>
+		<div class="content-container">
+			<h2 class="pink text-center font-weight-bold">About Me</h2>
+			<ul id="aboutList" class="list-styled">
+				<li>I study Computer Science at University of Waterloo</li>
+				<li>I'm currently doing a data science internship at <a href="https://omniumcpg.com/">Omnium CPG</a> and I'm always looking for new and challenging experiences</li>
+				<li> When I have extra time I work on projects which you can find on my <a href="https://github.com/alexboden"> github</a> or my blog <a href="https://blog.alexboden.ca"> blog.alexboden.ca</a></li>
+				<li>I'm a member of the varsity swim team at Waterloo where <a href="https://athletics.uwaterloo.ca/news/2023/2/28/boden-wins-silver-wormald-bronze-at-u-sports-swimming-championship.aspx"> I've medaled nationally</a></li>
 			</ul>
-			<button class="another-one-button" onclick="addListItem() ; playAudio('audio/another-one', 'audio/another-one.mp3', 0.7)" style="display: block; margin: auto;">Click!</button>
 		</div>
-
-
 		<br>
-		<div id="contact" class="content-container center-text">
-			<h2>Contact</h2>
+		<div id="contact" class="content-container text-center">
+			<h2 class="pink font-weight-bold">Contact</h2>
 			<p>Please reach me at any of the links below, always looking for opportunities!</p>
-				<a href="mailto:hello@alexboden.ca" target="_blank" style="text-decoration: none; color: inherit;">
-					<p>hello@alexboden.ca
-					<i class="fa fa-envelope" style="font-size:20px"></i>		
-					</p>
-				</a>
-
-				<a href="https://linkedin.com/in/alex-boden" target="_blank" style="text-decoration: none; color: inherit;">
-					<p>linkedin.com/in/alex-boden
-					<i class="fa fa-linkedin" style="font-size:20px"></i>		
-					</p>
-				</a>
-
-				<a href="https://github.com/alexboden" target="_blank" style="text-decoration: none; color: inherit;">
-					<p>github.com/alexboden
-					<i class="fa fa-github" style="font-size:20px"></i>		
-					</p>
-				</a>
-
-
+			<a href="mailto:alex.boden@uwaterloo.ca" target="_blank" class="text-dark">
+				<p>alex.boden@uwaterloo.ca <i class="fa fa-envelope" style="font-size:20px"></i></p>
+			</a>
+			<a href="https://linkedin.com/in/alex-boden" class="text-dark">
+				<p>linkedin.com/in/alex-boden <i class="fa fa-linkedin" style="font-size:20px"></i></p>
+			</a>
+			<a href="https://github.com/alexboden" class="text-dark">
+				<p>github.com/alexboden <i class="fa fa-github" style="font-size:20px"></i></p>
+			</a>
 		</div>
 		<br>
-		<div id="faq" class="content-container">
-			<h2>FAQ</h2>
-			<div class="inline-p">
-				<p>Q: </p>
-				<p class="sound" onclick="playAudio('audio/have-u-every-played-rugby', 'audio/have-u-every-played-rugby.mp3', 1)"> Have you ever played rugby?</p>
-				<p></p>
-			</div>
+	</div>
 
-			<p>A: Nope, I usually stick to swimming, frisbee, hiking and basketball.</p>
-			<!-- <p>Q: Do you have an OnlyFans?</p>
-			<div class="inline-p">
-				<p>A: </p>
-				<p class="fake-link" onclick="playAudio('audio/windows-10-error-sound', 'windows-10-error-sound.mp3', 1)">Find out</p> <p></p>
-			</div> -->
-			<p>Q: What's your favourite sports team?</p>
-			<p>A: Boston Celtics</p>
-		</div>
-
-
-		<br>
-
+	<!-- Include Bootstrap JS (Optional) -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

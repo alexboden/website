@@ -32,7 +32,11 @@ h2 {
 
 .sound {
 	font-weight: bold;
-	color: rgb(230, 3, 139);
+	color: rgb(228, 57, 159);
+}
+
+.pink {
+	color: rgb(228, 57, 159);
 }
 
 .another-one-button {
@@ -71,4 +75,16 @@ h2 {
 	height: auto;
 	border-radius: 50%;
 	overflow: hidden;
+}
+
+.btn-pink {
+    background-color:rgb(228, 57, 159);
+    border-color:rgb(228, 57, 159);
+    color: #ffffff; /* Text color */
+}
+
+.btn-pink:hover {
+    background-color: #e0408f; /* Hover color */
+    border-color: #e0408f;
+    color: #ffffff; /* Hover text color */
 }

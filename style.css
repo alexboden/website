@@ -1,90 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=REM:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
-	font-family: Arial, sans-serif;
-	color: #333;
-	background-color: #f4f4f4;
-	line-height: 1.6;
-	padding: 10px;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
-h2 {
-	color: #000000;
-	text-align: center;
-	font-size: 2em;
-	padding-bottom: 2px;
-}
-
-.center-text {
-	text-align: center;
-}
-
-.inline-p p {
-	display: inline;
-}
-
-.inline-h2 h2 {
-	display: inline;
-}
-.fake-link {
-	text-decoration: underline;
-	color: #007bff;
-	cursor: pointer;
-}
-
-.sound {
-	font-weight: bold;
-	color: rgb(228, 57, 159);
-}
-
-.pink {
-	color: rgb(228, 57, 159);
-}
-
-.another-one-button {
-	font-family: Arial, sans-serif;
-	background-color: rgb(230, 3, 139);
-	color: #333;
-	padding: 20px;
-	border-radius: 20%;
-	cursor: pointer;
-	font-weight: bold;
-	font-size: large;
-}
-
-#faq {
-	background: #fff;
-	padding-top: 0px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	border-radius: 5px;
-	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-}
-
-.pets-caption {
-	font-style: italic;
-}
-
-.responsive-image {
-	max-width: 15%;
-	height: auto;
+.img-fluid {
+    width: 100%;
+    height: auto;
 }
 
 
-
-.varsity-image {
-	max-width: 10%;
-	height: auto;
-	border-radius: 50%;
-	overflow: hidden;
+.pink-link {
+	color: #D90368;
 }
 
-.btn-pink {
-    background-color:rgb(228, 57, 159);
-    border-color:rgb(228, 57, 159);
-    color: #ffffff; /* Text color */
+.pink-link:hover {
+	color: #B50356;
 }
 
-.btn-pink:hover {
-    background-color: #e0408f; /* Hover color */
-    border-color: #e0408f;
-    color: #ffffff; /* Hover text color */
+.purple-link {
+	color: #541388;
+}
+
+.purple-link:hover {
+	color: #420F6B;
+}
+
+.yellow-link {
+	color: #FFD400;
+}
+
+.yellow-link:hover {
+	color: #E0BB00;
 }

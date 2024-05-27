@@ -2,56 +2,66 @@
 <html lang="en">
 <head>
     <title>alexboden.ca</title>
-    <!-- Include Bootstrap CSS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 
+
 <body class="bg-light">
-	<div class="container">
+
+	<div class="col-md-12 text-center mt-5">
+		<h1 style="font-size: 3em; font-family: Roboto;"><a href="https://alexboden.ca" class="pink-link">Alex Boden<a></h1>
+	</div>
+
+	<div class="container mt-5">
 		<div class="row">
-			<div class="col-md-12 text-center mt-5">
-				<h2 class="d-inline font-weight-bold">Hello there and welcome to</h2>
-				<h2 class="d-inline pink font-weight-bold">alexboden.ca</h2>
-				<h2 class="d-inline font-weight-bold">!</h2>
-				<br> 
-				<div class="image-container">
-					<img src="photos/dewi.png" class="responsive-image" alt="Milo">
-					<img src="photos/milo.png" class="responsive-image" alt="Dewi">
-					<img src="photos/earl-2.png" class="responsive-image" alt="Earl">
-					<img src="photos/alex.png" class="responsive-image" alt="Alex">
-				</div>
-				<br>
-				<p class="pets-caption">My three pets: Dewi, Milo, and Earl, and here's me, Alex Boden!</p>
+			<div class="col-md-4 bg-light d-flex justify-content-center align-items-center order-md-1">
+				<h4> <a class="pink-link" href="index.html">Home</a></h4>
+			</div>
+			<div class="col-md-4 bg-light d-flex justify-content-center align-items-center order-md-2">
+				<h4> <a class="purple-link" href="projects.html">Projects</a></h4>
+			</div>
+			<div class="col-md-4 bg-light d-flex justify-content-center align-items-center order-md-3">
+				<h4> <a class="yellow-link" href="">Coming Soon</a></h4>
 			</div>
 		</div>
-		<br>
-		<div class="content-container">
-			<h2 class="pink text-center font-weight-bold">About Me</h2>
-			<ul id="aboutList" class="list-styled">
-				<li>I study Computer Science at University of Waterloo</li>
-				<li>I recently completed a data science internship at <a href="https://omniumcpg.com/">Omnium CPG</a> and I'm always looking for challenging experiences</li>
-				<li> When I have extra time I work on projects which you can find on my <a href="https://github.com/alexboden"> github</a></li>
-				<li>I'm a member of the varsity swim team at Waterloo where <a href="https://athletics.uwaterloo.ca/news/2023/2/28/boden-wins-silver-wormald-bronze-at-u-sports-swimming-championship.aspx"> I've medaled nationally</a></li>
-			</ul>
-		</div>
-		<br>
-		<div id="contact" class="content-container text-center">
-			<h2 class="pink font-weight-bold">Contact</h2>
-			<p>Please reach me at any of the links below, I'm always open to new opportunities!</p>
-			<a href="mailto:alex.boden@uwaterloo.ca" target="_blank" class="text-dark">
-				<p><i class="fa fa-envelope" style="font-size:20px"></i> alex.boden@uwaterloo.ca </p>
-			</a>
-			<a href="https://linkedin.com/in/alex-boden" class="text-dark">
-				<p> <i class="fa fa-linkedin" style="font-size:20px"></i> linkedin.com/in/alex-boden</p>
-			</a>
-			<a href="https://github.com/alexboden" class="text-dark">
-				<p> <i class="fa fa-github" style="font-size:20px"></i> github.com/alexboden </p>
-			</a>
-		</div>
-		<br>
 	</div>
+	
+
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-md-6 bg-light center-text order-md-2">
+				<p style="font-size: 1.35em;" class="center-text">I'm Alex and I study Computer Science at the University of Waterloo. I'm also a captain of the swim team where we rank top 10 nationally.</p>
+				<p style="font-size: 1.35em;" class="center-text"> I'm currently working at <a class="pink-link" href="https://ised-isde.canada.ca/site/ised/en">ISDE</a> as a Data Science Intern on various LLM use cases. Previously, I worked as a Data Science Intern at <a class="pink-link" href="https://www.omniumcpg.com/">Omnium</a> where I applied statistics to grocery pricing. I'm also a member of <a class="pink-link" href="https://cloud.watonomous.ca">WATcloud</a> where I'm <a class="pink-link" href="https://github.com/WATonomous/run-gha-on-slurm">working on</a> how to run our CI on <a class="pink-link" href="https://slurm.schedmd.com/overview.html">Slurm</a>.</p>
+				<p style="font-size: 1.35em;">I'm always looking technical challenges and right now my interests include ML, backend, infrastructure and data.</p>
+				<div style="display: flex; justify-content: center; align-items: center; gap: 20px; ">
+					<a href="mailto:alex.boden@uwaterloo.ca" class="pink-link">
+						<i class="fa fa-envelope" style="font-size:2em;"></i>
+					</a>
+					<a href="https://linkedin.com/in/alex-boden" class="pink-link">
+						<i class="fa fa-linkedin" style="font-size:2em;"></i>
+					</a>
+					<a href="https://github.com/alexboden" class="pink-link">
+						<i class="fa fa-github" style="font-size:2em;"></i>
+					</a>
+				</div>
+				<br>
+			</div>
+			<div class="col-md-6 bg-light order-md-1">
+				<img src="sky.jpeg" class="img-fluid" alt="Sunset in Mattapoisett" style="width: 100%; height: auto;">
+				<p style="font-style: italic; font-size: 0.9em" class="text-center">Mattapoisett, Massachusetts</p>
+			</div>
+		</div>
+	</div>
+	
+	<br>
+		
+		
+	<!-- Include Bootstrap JS (Optional) -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

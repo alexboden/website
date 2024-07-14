@@ -10,27 +10,13 @@ body {
     height: auto;
 }
 
-
 .pink-link {
-	color: #D90368;
+	background: linear-gradient(to bottom, #7e5c8f, #cb4b5e, #cc433f);
+    background-clip: border-box;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
 }
 
 .pink-link:hover {
 	color: #B50356;
-}
-
-.purple-link {
-	color: #541388;
-}
-
-.purple-link:hover {
-	color: #420F6B;
-}
-
-.yellow-link {
-	color: #FFD400;
-}
-
-.yellow-link:hover {
-	color: #E0BB00;
 }

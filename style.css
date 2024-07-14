@@ -17,6 +17,14 @@ body {
 	-webkit-background-clip: text;
 }
 
+.pink-logo {
+	background: linear-gradient(to bottom, #7e5c8f, #cb4b5e, #cc433f);
+	background-clip: border-box;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+
+}
+
 .pink-link:hover {
 	color: #B50356;
 	border-bottom: 1px solid #B50356;

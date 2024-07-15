@@ -20,3 +20,18 @@ body {
 .pink-link:hover {
 	text-decoration: underline solid #cc433f;
 }
+/* Default Light Mode Styles */
+body.bg-light {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Dark Mode Styles */
+body.bg-dark {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+.dark-mode .bg-light {
+    background-color: #343a40 !important;
+}

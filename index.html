@@ -2,49 +2,69 @@
 <html lang="en">
 <head>
     <title>alexboden.ca</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="dark-mode-button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body class="bg-light">
-	<div class="col-md-12 text-center mt-5">
-		<h1 style="font-size: 3em; font-family: Roboto;"><a href="https://alexboden.ca" class="pink-link">Alex Boden<a></h1>
-	</div>
+<body class="">
+    <div class="col-md-12 text-center mt-5">
+        <h1 style="font-size: 3em; font-family: Roboto;"><a href="https://alexboden.ca" class="pink-link">Alex Boden<a></h1>
 
-	<div class="container mt-4">
-		<div class="row">
-			<div class="col-md-6 bg-light center-text order-md-2" style="font-size: 1.32em; padding-top: 0.1em;">
-				<p class="center-text">Hey, I'm Alex and I study Computer Science at the University of Waterloo, where I have enjoyed an array of classes of CS and math courses. In Waterloo, I'm lucky to spend my mornings swimming with the <a class=pink-link  href="https://athletics.uwaterloo.ca/sports/mens-swimming-and-diving">varsity team</a>.</p>
-				<p class="center-text"> I'm currently working at <a class="pink-link" href="https://ised-isde.canada.ca/site/ised/en">ISED</a> as a Data Science Intern on various LLM use cases. Previously, I worked as a Data Science Intern at <a class="pink-link" href="https://www.omniumcpg.com/">Omnium</a> where I applied statistics to grocery pricing. I'm also a member of <a class="pink-link" href="https://cloud.watonomous.ca">WATcloud</a> where I'm <a class="pink-link" href="https://github.com/WATonomous/run-gha-on-slurm">working on</a> how to run our CI on <a class="pink-link" href="https://slurm.schedmd.com/overview.html">Slurm</a>.</p>
-				<p>I'm always looking technical challenges and right now my interests include LLMs, ML, backend, infrastructure and data.</p>
-				<br>
-				<div style="display: flex; justify-content: center; align-items: center; gap: 20px; ">
-					<a href="mailto:alex.boden@uwaterloo.ca" class="pink-link">
-						<i class="fa fa-envelope" style="font-size:2em;"></i>
-					</a>
-					&emsp;
-					<a href="https://linkedin.com/in/alex-boden" class="pink-link">
-						<i class="fa fa-linkedin" style="font-size:2em;"></i>
-					</a>
-					&emsp;
-					<a href="https://github.com/alexboden" class="pink-link">
-						<i class="fa fa-github" style="font-size:2em;"></i>
-					</a>
-				</div>
-				<br>
+		<label class="ui-switch">
+			<input type="checkbox" id="darkModeToggle">
+			<div class="slider">
+			  <div class="circle"></div>
 			</div>
-			<div class="col-md-6 bg-light order-md-1">
-				<img src="sky.jpeg" class="img-fluid" alt="Sunset in Mattapoisett" style="width: 100%; height: auto;">
-				<p style="font-style: italic; font-size: 0.9em" class="text-center">Mattapoisett, Massachusetts</p>
-			</div>
-		</div>
+		  </label>
+		  
+    </div>
 
-	</div>
-	<!-- Include Bootstrap JS (Optional) -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6 center-text order-md-2" style="font-size: 1.32em; padding-top: 0.1em;">
+                <p class="center-text">Hey, I'm Alex and I study Computer Science at the University of Waterloo, where I have enjoyed an array of classes of CS and math courses. In Waterloo, I'm lucky to spend my mornings swimming with the <a class="pink-link" href="https://athletics.uwaterloo.ca/sports/mens-swimming-and-diving">varsity team</a>.</p>
+                <p class="center-text"> I'm currently working at <a class="pink-link" href="https://ised-isde.canada.ca/site/ised/en">ISED</a> as a Data Science Intern on various LLM use cases. Previously, I worked as a Data Science Intern at <a class="pink-link" href="https://www.omniumcpg.com/">Omnium</a> where I applied statistics to grocery pricing. I'm also a member of <a class="pink-link" href="https://cloud.watonomous.ca">WATcloud</a> where I'm <a class="pink-link" href="https://github.com/WATonomous/run-gha-on-slurm">working on</a> how to run our CI on <a class="pink-link" href="https://slurm.schedmd.com/overview.html">Slurm</a>.</p>
+                <p>I'm always looking technical challenges and right now my interests include LLMs, ML, backend, infrastructure and data.</p>
+                <br>
+                <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+                    <a href="mailto:alex.boden@uwaterloo.ca" class="pink-link">
+                        <i class="fa fa-envelope" style="font-size:2em;"></i>
+                    </a>
+                    &emsp;
+                    <a href="https://linkedin.com/in/alex-boden" class="pink-link">
+                        <i class="fa fa-linkedin" style="font-size:2em;"></i>
+                    </a>
+                    &emsp;
+                    <a href="https://github.com/alexboden" class="pink-link">
+                        <i class="fa fa-github" style="font-size:2em;"></i>
+                    </a>
+                </div>
+                <br>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <img src="sky.jpeg" class="img-fluid" alt="Sunset in Mattapoisett" style="width: 100%; height: auto;">
+                <p style="font-style: italic; font-size: 0.9em" class="text-center">Mattapoisett, Massachusetts</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script>
+        const toggleSwitch = document.getElementById('darkModeToggle');
+        toggleSwitch.addEventListener('change', () => {
+            document.body.classList.toggle('bg-dark');
+            document.body.classList.toggle('bg-light');
+            document.querySelectorAll('.bg-light').forEach(element => {
+                element.classList.toggle('dark-mode');
+            });
+        });
+    </script>
 </body>
 </html>

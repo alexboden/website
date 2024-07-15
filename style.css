@@ -18,5 +18,5 @@ body {
 }
 
 .pink-link:hover {
-	color: #B50356;
+	text-decoration: underline solid #cc433f;
 }
